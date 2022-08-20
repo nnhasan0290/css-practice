@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        height: 200px;
+        width: 400px;
+        font: 22px Arial;
+        display: inline-block;
+        padding: 1em 2em;
+        text-align: center;
+        color: white;
+        background: red; /* default color */
+        background: linear-gradient(to left, salmon 50%, lightblue 50%) right;
+        background-size: 200%;
+        transition: 0.5s ease-out;
+      }
+      div:hover {
+        background-position: left;
+      }
+      button {
+        padding: 15px;
+        border-radius: 100%;
+        background: linear-gradient(to left, red 50%,green 50%)right;
+        background-size: 200%;
+        transition: all 0.5s ease;
+      }
+      button:hover{
+        background-position: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2>This is the div</h2>
+    </div>
+    <button>Submit</button>
+  </body>
+</html>
